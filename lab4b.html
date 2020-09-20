@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GIT & GITHUB</title>
+<style>
+.head1{
+color: blue;
+       background-color : lawngreen;
+       font-family: verdana ;
+       font-size: 75%;
+       border: 3px outset aquamarine;
+}
+.head2{
+color: blue;
+       background-color : lawngreen;
+       font-family: verdana ;
+       font-size: 75%;
+       border: 3px outset aquamarine;
+}
+</style>
+<body bgcolor=lightblue>
+<div class="head1">
+<h2 align=center> Version Control System</h2>
+</div><br>
+Version control systems are a category of software tools that helps record changes to files by keeping a track of modifications done to the code.
+
+<br>Use of Version Control System:
+<ul>
+<li>A repository: It can be thought as a database of changes. It contains all the edits and historical versions (snapshots) of the project.</li>
+<li>Copy of Work (sometimes called as checkout): It is the personal copy of all the files in a project. You can edit to this copy, 
+without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.</li>
+</ul>
+<b><i>Local Version Control Systems:</i></b> It is one of the simplest forms and has a database that kept all the changes to files under revision control. RCS is one of the most common VCS tools. 
+It keeps patch sets (differences between files) in a special format on disk. By adding up all the patches it can then re-create what any file looked like at any point in time.<br><br>
+
+<div class="head2">
+<h2 align=center>Basic Git Commands</h2>
+</div>
+<ul>
+<li><b>git init</b><br>
+This command turns a directory into an empty Git repository. 
+This is the first step in creating a repository. After running git init, adding and committing files/directories is possible.</li><br>
+
+
+<li><b>git add</b><br>
+Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). 
+There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files.</li><br>
+
+
+<li><b>git commit</b><br>
+Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
+
+It’s best practice to include a message with each commit explaining the changes made in a commit. 
+Adding a commit message helps to find a particular change or understanding the changes.</li><br>
+
+
+
+<li><b>git status</b><br>
+This command returns the current state of the repository.</li><br><br>
+
+<li><b>git status</b><br>It will return the current working branch. If a file is in the staging area, but not committed, 
+it shows with git status. Or, if there are no changes it’ll return nothing to commit, working directory clean.</li><br>
+
+
+
+
+<li><b>git push</b><br>
+The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. 
+The command used for pushing to GitHub is given below.
+git push 'remote_name' 'branch_name'
+In this tutorial, you'll be looking two different ways to PUSH to GitHub.</li><br>
+</ul>
+<marquee bgcolor=plum><i> Assignment done by Shruti Jai(1906185)</i></marquee>
+</body>
+</html>
+
